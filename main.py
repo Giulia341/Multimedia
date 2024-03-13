@@ -7,7 +7,7 @@ from post_processing import apply_blur, correct_color, adjust_brightness_contras
 tracker = ObjectTracker()
 
 # Apertura del video
-cap = cv2.VideoCapture('/Users/giulia/Downloads/auto_2.mp4')
+cap = cv2.VideoCapture('/Users/giulia/Multimedia_progetto/video/auto_2.mp4')
 
 # Creazione dell'oggetto per il rilevamento degli oggetti
 object_detector = cv2.createBackgroundSubtractorMOG2(history=200, varThreshold=40)
